@@ -70,6 +70,7 @@ npm run dev
 git clone https://github.com/your-username/crypto-price-tracker.git
 cd crypto-price-tracker
 
+```
 ### ✅ Summary of What You’ve Implemented So Far
 
 - React + Redux architecture
