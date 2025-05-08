@@ -67,7 +67,7 @@ npm run dev
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/crypto-price-tracker.git
+git clone https://github.com/zeusgodyt/Real-Time-Crypto-Price-Tracker.git
 cd crypto-price-tracker
 
 ```
