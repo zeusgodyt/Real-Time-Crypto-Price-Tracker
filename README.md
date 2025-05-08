@@ -54,6 +54,7 @@ Build a real-time crypto price tracker that:
 ---
 
 ## 🧠 App Architecture
+![Folder Structure](./image.png)
 
 
 
