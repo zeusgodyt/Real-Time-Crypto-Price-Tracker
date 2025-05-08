@@ -36,7 +36,7 @@ Build a real-time crypto price tracker that:
 
 ## 🚀 Live Demo
 
-🎥 **[Watch the Demo Video](https://your-demo-link.com)**  
+🎥 **[Demo GIF](./demo.gif)**  
 🧪 *Walkthrough includes: UI, state updates, sorting/filtering logic, and component breakdown.*
 
 ---
