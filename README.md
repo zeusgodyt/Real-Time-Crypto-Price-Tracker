@@ -1,82 +1,12 @@
-# 📊 Real-Time Crypto Price Tracker
+# React + Vite
 
-A responsive React + Redux Toolkit application that tracks real-time cryptocurrency prices with simulated live updates. It mimics platforms like CoinMarketCap and includes sorting, filtering, and a clean UI with chart previews.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-![Preview Banner](./preview.png)
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🎯 Objective
+## Expanding the ESLint configuration
 
-Build a real-time crypto price tracker that:
-- Displays key metrics of top cryptocurrencies.
-- Simulates WebSocket price updates.
-- Manages all data using Redux Toolkit.
-- Provides filtering and sorting options.
-- Is fully responsive and user-friendly.
-
----
-
-## 🧪 Features
-
-- 📈 **Live Updates**: Simulated using `setInterval` to mimic WebSocket behavior.
-- 🗃️ **Redux Toolkit**: Centralized state management for all asset data.
-- 🔍 **Filtering**: Search by asset name or symbol.
-- 🔃 **Sorting**: Sort by price, % changes, market cap, etc.
-- 💡 **Color Coding**: Positive/negative % changes in green/red.
-- 🖼️ **7-Day Chart**: Static SVG chart preview.
-- 📱 **Responsive Design**: Tailwind CSS ensures mobile-friendly layout.
-- 🎁 **Bonus Support** (ready to implement):
-  - Binance WebSocket integration
-  - localStorage
-  - TypeScript
-  - Unit tests for reducers/selectors
-
----
-
-## 🚀 Live Demo
-
-🎥 **[Demo GIF](./demo.gif)**  
-🧪 *Walkthrough includes: UI, state updates, sorting/filtering logic, and component breakdown.*
-
----
-
-## 🛠 Tech Stack
-
-| Tech             | Usage                                  |
-|------------------|-----------------------------------------|
-| React            | Frontend framework                     |
-| Redux Toolkit    | State management (`createSlice`, etc.) |
-| Tailwind CSS     | Styling and layout                     |
-| JavaScript       | Core logic                             |
-| Mock WebSocket   | Simulated real-time data               |
-
----
-
-## 🧠 App Architecture
-![Folder Structure](./image.png)
-
-
-
----
-
-## 📁 How to Run Locally
- ```bash
-npm run dev
-```
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/zeusgodyt/Real-Time-Crypto-Price-Tracker.git
-cd crypto-price-tracker
-
-```
-### ✅ Summary of What You’ve Implemented So Far
-
-- React + Redux architecture
-- Simulated WebSocket
-- Dynamic table with static charts
-- Sorting & filtering
-- Responsive UI with Tailwind
-- Clean Redux slices (crypto + UI)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
